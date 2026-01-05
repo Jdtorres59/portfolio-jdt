@@ -41,6 +41,7 @@ export const i18n: Record<
     projects: {
       title: string;
       subtitle: string;
+      note: string;
       categories: {
         featured: string;
         ai: string;
