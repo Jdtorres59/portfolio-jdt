@@ -1,149 +1,152 @@
 import type { Locale } from "./types";
 
-export const i18n: Record<Locale, {
-  nav: {
-    home: string;
-    about: string;
-    projects: string;
-    certifications: string;
-    contact: string;
-  };
-  profile: {
-    role: string;
-    tagline: string;
-    summary: string;
-    location: string;
-    photoAlt: string;
-  };
-  hero: {
-    headline: string;
-    ctaPrimary: string;
-    ctaSecondary: string;
-    scrollCue: string;
-  };
-  about: {
-    title: string;
-    lead: string;
-    body: string;
-  };
-  education: {
-    title: string;
-    subtitle: string;
-    items: {
-      uniandes: {
-        degree: string;
-        location: string;
+export const i18n: Record<
+  Locale,
+  {
+    nav: {
+      home: string;
+      about: string;
+      projects: string;
+      certifications: string;
+      contact: string;
+    };
+    profile: {
+      role: string;
+      tagline: string;
+      summary: string;
+      location: string;
+      photoAlt: string;
+    };
+    hero: {
+      headline: string;
+      ctaPrimary: string;
+      ctaSecondary: string;
+      scrollCue: string;
+    };
+    about: {
+      title: string;
+      lead: string;
+      body: string;
+    };
+    education: {
+      title: string;
+      subtitle: string;
+      items: {
+        uniandes: {
+          degree: string;
+          location: string;
+        };
       };
     };
-  };
-  projects: {
-    title: string;
-    subtitle: string;
-    categories: {
-      featured: string;
-      ai: string;
-      engineering: string;
-    };
-    status: {
-      deployed: string;
-      inDevelopment: string;
-      academic: string;
-    };
-    links: {
-      liveDemo: string;
-      repo: string;
-      caseStudy: string;
-      comingSoon: string;
-    };
-    items: {
-      ez: {
-        title: string;
-        description: string;
-        videoAlt: string;
+    projects: {
+      title: string;
+      subtitle: string;
+      categories: {
+        featured: string;
+        ai: string;
+        engineering: string;
       };
-      moviescope: {
-        title: string;
-        description: string;
-        posterAlt: string;
-        videoAlt: string;
+      status: {
+        deployed: string;
+        inDevelopment: string;
+        academic: string;
       };
-      chatgptClone: {
-        title: string;
-        description: string;
-        posterAlt: string;
-        videoAlt: string;
+      links: {
+        liveDemo: string;
+        repo: string;
+        caseStudy: string;
+        comingSoon: string;
       };
-      codebugfixer: {
-        title: string;
-        description: string;
-        posterAlt: string;
-        videoAlt: string;
-      };
-      quizGenerator: {
-        title: string;
-        description: string;
-        posterAlt: string;
-        videoAlt: string;
-      };
-      powerpointGenerator: {
-        title: string;
-        description: string;
-        posterAlt: string;
-        videoAlt: string;
-      };
-      solSiembra: {
-        title: string;
-        description: string;
-        posterAlt: string;
-        videoAlt: string;
-      };
-    };
-  };
-  certifications: {
-    title: string;
-    subtitle: string;
-    empty: string;
-    credentialLabel: string;
-    credentialIdLabel: string;
-    filters: {
-      all: string;
-      ai: string;
-      software: string;
-      systems: string;
-    };
-    items: {
-      supervisedMl: {
-        title: string;
-        issuer: string;
-      };
-      aiForEveryone: {
-        title: string;
-        issuer: string;
+      items: {
+        ez: {
+          title: string;
+          description: string;
+          videoAlt: string;
+        };
+        moviescope: {
+          title: string;
+          description: string;
+          posterAlt: string;
+          videoAlt: string;
+        };
+        chatgptClone: {
+          title: string;
+          description: string;
+          posterAlt: string;
+          videoAlt: string;
+        };
+        codebugfixer: {
+          title: string;
+          description: string;
+          posterAlt: string;
+          videoAlt: string;
+        };
+        quizGenerator: {
+          title: string;
+          description: string;
+          posterAlt: string;
+          videoAlt: string;
+        };
+        powerpointGenerator: {
+          title: string;
+          description: string;
+          posterAlt: string;
+          videoAlt: string;
+        };
+        solSiembra: {
+          title: string;
+          description: string;
+          posterAlt: string;
+          videoAlt: string;
+        };
       };
     };
-  };
-  contact: {
-    title: string;
-    subtitle: string;
-    cta: string;
-    emailLabel: string;
-    linkedinLabel: string;
-    githubLabel: string;
-  };
-  social: {
-    linkedin: string;
-    github: string;
-    email: string;
-  };
-  languages: {
-    en: string;
-    es: string;
-  };
-  accessibility: {
-    languageToggle: string;
-    scrollToTop: string;
-  };
-}> = {
+    certifications: {
+      title: string;
+      subtitle: string;
+      empty: string;
+      credentialLabel: string;
+      credentialIdLabel: string;
+      filters: {
+        all: string;
+        ai: string;
+        software: string;
+        systems: string;
+      };
+      items: {
+        supervisedMl: {
+          title: string;
+          issuer: string;
+        };
+        aiForEveryone: {
+          title: string;
+          issuer: string;
+        };
+      };
+    };
+    contact: {
+      title: string;
+      subtitle: string;
+      cta: string;
+      emailLabel: string;
+      linkedinLabel: string;
+      githubLabel: string;
+    };
+    social: {
+      linkedin: string;
+      github: string;
+      email: string;
+    };
+    languages: {
+      en: string;
+      es: string;
+    };
+    accessibility: {
+      languageToggle: string;
+      scrollToTop: string;
+    };
+  }
+> = {
   en: {
     nav: {
       home: "Home",
