@@ -31,7 +31,7 @@ export function Button(props: ButtonProps | AnchorProps) {
   const classes = cn(baseStyles, variants[variant], className);
 
   if (href) {
-    const anchorProps = rest as AnchorProps;
+    const anchorProps = rest as Omit<AnchorProps, "href">;
     return <a href={href} className={classes} {...anchorProps} />;
   }
 

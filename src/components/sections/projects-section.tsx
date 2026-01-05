@@ -34,6 +34,7 @@ export function ProjectsSection() {
       title={dictionary.projects.title}
       subtitle={dictionary.projects.subtitle}
     >
+      <p className="mb-8 text-sm text-white/60">{dictionary.projects.note}</p>
       <div className="space-y-16">
         {grouped.map(({ category, items }) => {
           if (items.length === 0) return null;
@@ -125,7 +126,7 @@ function ProjectCard({ project, index, featured }: ProjectCardProps) {
                 <p className="mt-3 text-sm text-white/70">{description}</p>
               </div>
               <Badge className={statusStyles[project.status]} variant="status">
-                {statusLabel}image.png
+                {statusLabel}
               </Badge>
             </div>
             {video && isVerticalVideo ? (

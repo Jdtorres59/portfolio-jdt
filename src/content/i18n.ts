@@ -190,6 +190,8 @@ export const i18n: Record<
       title: "Projects",
       subtitle:
         "Projects built with purpose. Many explore AI to help people learn, support others, and solve real problems.",
+      note:
+        "Note: Some demos are hosted on Render. If a link feels slow at first, please give the server a moment to wake up.",
       categories: {
         featured: "Featured Projects",
         ai: "AI Tools",
@@ -346,6 +348,8 @@ export const i18n: Record<
       title: "Proyectos",
       subtitle:
         "Proyectos construidos con propósito. Muchos exploran la IA para ayudar a aprender, apoyar a otros y resolver problemas reales.",
+      note:
+        "Nota: Algunas demos están en Render. Si un enlace tarda al inicio, espera un momento mientras el servidor se activa.",
       categories: {
         featured: "Proyectos destacados",
         ai: "Herramientas de IA",
