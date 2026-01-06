@@ -49,7 +49,7 @@ export function HeroSection() {
           <p className="text-xs font-semibold uppercase tracking-[0.4em] text-accent/80">
             {role}
           </p>
-          <h1 className="mt-6 font-display text-4xl font-semibold text-white sm:text-6xl lg:text-7xl">
+          <h1 className="mt-6 whitespace-nowrap font-display text-[clamp(1.4rem,4.2vw,5rem)] font-semibold text-white">
             {dictionary.hero.headline}
           </h1>
           <p className="mt-6 text-xl text-white/80 sm:text-2xl">
