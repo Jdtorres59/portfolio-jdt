@@ -166,7 +166,7 @@ export const i18n: Record<
       photoAlt: "Portrait of Juan David Torres",
     },
     hero: {
-      headline: "Juan David Torres.",
+      headline: "Juan David Torres",
       ctaPrimary: "View projects",
       ctaSecondary: "Contact",
       scrollCue: "Scroll to explore",
@@ -262,8 +262,7 @@ export const i18n: Record<
     },
     certifications: {
       title: "Certifications",
-      subtitle:
-        "I enjoy learning and staying up to date with emerging technologies.",
+      subtitle: "I enjoy learning and staying up to date with emerging technologies",
       empty: "No certifications listed yet.",
       credentialLabel: "View credential",
       credentialIdLabel: "Credential ID",
@@ -286,7 +285,7 @@ export const i18n: Record<
     },
     contact: {
       title: "Contact",
-      subtitle: "Let’s build something meaningful together.",
+      subtitle: "Let’s build something meaningful together",
       cta: "I’m open to collaborations, research, and projects focused on positive impact.",
       emailLabel: "Email",
       linkedinLabel: "LinkedIn",
@@ -324,7 +323,7 @@ export const i18n: Record<
       photoAlt: "Retrato de Juan David Torres",
     },
     hero: {
-      headline: "Juan David Torres.",
+      headline: "Juan David Torres",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contacto",
       scrollCue: "Desliza para explorar",
@@ -420,8 +419,7 @@ export const i18n: Record<
     },
     certifications: {
       title: "Certificaciones",
-      subtitle:
-        "Me gusta aprender y mantenerme al día con las tecnologías emergentes.",
+      subtitle: "Me gusta aprender y mantenerme al día con las tecnologías emergentes",
       empty: "Aún no hay certificaciones listadas.",
       credentialLabel: "Ver credencial",
       credentialIdLabel: "ID de credencial",
@@ -444,7 +442,7 @@ export const i18n: Record<
     },
     contact: {
       title: "Contacto",
-      subtitle: "Construyamos algo que valga la pena.",
+      subtitle: "Construyamos algo que valga la pena",
       cta: "Estoy abierto a colaboraciones, investigación y proyectos con impacto positivo.",
       emailLabel: "Correo",
       linkedinLabel: "LinkedIn",

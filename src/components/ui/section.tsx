@@ -21,7 +21,7 @@ export function Section({ id, title, subtitle, children, className }: SectionPro
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="mb-12"
         >
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent/80">
+          <p className="text-base font-semibold uppercase tracking-[0.3em] text-accent/80">
             {title}
           </p>
           {subtitle ? (

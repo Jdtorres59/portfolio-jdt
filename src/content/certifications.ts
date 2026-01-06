@@ -17,6 +17,6 @@ export const certifications: Certification[] = [
     year: "Oct 2025",
     category: "ai",
     credentialId: "RCORK770T6E6",
-    credentialUrl: "/media/certifications/Certificación AI For Everyone.pdf",
+    credentialUrl: "/media/certifications/Certificacion-AI-For-Everyone.pdf",
   },
 ];
