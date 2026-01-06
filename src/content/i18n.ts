@@ -163,10 +163,10 @@ export const i18n: Record<
       summary:
         "I’m an engineering student who loves learning, teaching, and turning ideas into products that can genuinely improve everyday life.",
       location: "Bogotá, Colombia",
-      photoAlt: "Portrait of Juan David Torres",
+      photoAlt: "Portrait of Juan David Torres Casas",
     },
     hero: {
-      headline: "Juan David Torres",
+      headline: "Juan David Torres Casas",
       ctaPrimary: "View projects",
       ctaSecondary: "Contact",
       scrollCue: "Scroll to explore",
@@ -314,16 +314,16 @@ export const i18n: Record<
       contact: "Contacto",
     },
     profile: {
-      role: "Estudiante de ingeniería aspirante a ingeniero de IA/software",
+      role: "Estudiante de ingeniería · aspirante a ingeniero de IA/software",
       tagline:
         "Me interesa crear tecnología con propósito para ayudar a construir una mejor sociedad.",
       summary:
         "Soy estudiante de ingeniería, curioso por naturaleza, con una gran vocación por enseñar y convertir ideas en productos que aporten a la vida diaria.",
       location: "Bogotá, Colombia",
-      photoAlt: "Retrato de Juan David Torres",
+      photoAlt: "Retrato de Juan David Torres Casas",
     },
     hero: {
-      headline: "Juan David Torres",
+      headline: "Juan David Torres Casas",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contacto",
       scrollCue: "Desliza para explorar",
