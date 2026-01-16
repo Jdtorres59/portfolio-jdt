@@ -123,6 +123,10 @@ export const i18n: Record<
           title: string;
           issuer: string;
         };
+        mlWithPython: {
+          title: string;
+          issuer: string;
+        };
       };
     };
     contact: {
@@ -281,6 +285,10 @@ export const i18n: Record<
           title: "AI For Everyone",
           issuer: "DeepLearning.AI",
         },
+        mlWithPython: {
+          title: "Machine Learning with Python",
+          issuer: "IBM",
+        },
       },
     },
     contact: {
@@ -437,6 +445,10 @@ export const i18n: Record<
         aiForEveryone: {
           title: "AI For Everyone",
           issuer: "DeepLearning.AI",
+        },
+        mlWithPython: {
+          title: "Machine Learning with Python",
+          issuer: "IBM",
         },
       },
     },

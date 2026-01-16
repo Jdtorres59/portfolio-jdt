@@ -19,4 +19,13 @@ export const certifications: Certification[] = [
     credentialId: "RCORK770T6E6",
     credentialUrl: "/media/certifications/Certificacion-AI-For-Everyone.pdf",
   },
+  {
+    id: "ml-with-python",
+    titleKey: "certifications.items.mlWithPython.title",
+    issuerKey: "certifications.items.mlWithPython.issuer",
+    year: "Jan 2026",
+    category: "ai",
+    credentialId: "ICTOLQAUAOOQ",
+    credentialUrl: "/media/certifications/Certificado ML with Python.pdf",
+  },
 ];
