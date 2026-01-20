@@ -115,6 +115,34 @@ export const projects: Project[] = [
     },
   },
   {
+    id: "speak2send",
+    titleKey: "projects.items.speak2send.title",
+    descriptionKey: "projects.items.speak2send.description",
+    category: "ai",
+    status: "deployed",
+    tech: [
+      "Speech-to-Text",
+      "AI Rewriting",
+      "UX",
+      "Production Demo",
+      "Web App",
+    ],
+    media: {
+      poster: {
+        src: "/media/projects/posters/Speak2Send.png",
+        altKey: "projects.items.speak2send.posterAlt",
+      },
+      video: {
+        src: "/media/projects/videos/Speak2SendVideo.mp4",
+        posterSrc: "/media/projects/posters/Speak2Send.png",
+        altKey: "projects.items.speak2send.videoAlt",
+      },
+    },
+    links: {
+      demo: "https://speak2send.vercel.app",
+    },
+  },
+  {
     id: "powerpoint-generator",
     titleKey: "projects.items.powerpointGenerator.title",
     descriptionKey: "projects.items.powerpointGenerator.description",

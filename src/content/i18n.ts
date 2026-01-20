@@ -88,6 +88,12 @@ export const i18n: Record<
           posterAlt: string;
           videoAlt: string;
         };
+        speak2send: {
+          title: string;
+          description: string;
+          posterAlt: string;
+          videoAlt: string;
+        };
         powerpointGenerator: {
           title: string;
           description: string;
@@ -247,6 +253,13 @@ export const i18n: Record<
             "An app that transforms any topic into a quiz, designed to help people study, practice, and reinforce knowledge.",
           posterAlt: "Quiz Generator project poster",
           videoAlt: "Quiz Generator demo video",
+        },
+        speak2send: {
+          title: "Speak2Send",
+          description:
+            "Turn spoken Spanish into clear, professional English messages. A voice-to-text web app designed for Spanish speakers who need to communicate quickly and professionally in English. Speak2Send records your voice, transcribes it, and rewrites it into a polished message ready to send.",
+          posterAlt: "Speak2Send project poster",
+          videoAlt: "Speak2Send demo video",
         },
         powerpointGenerator: {
           title: "PowerPoint Generator",
@@ -408,6 +421,13 @@ export const i18n: Record<
             "App que transforma cualquier tema en un quiz para estudiar, practicar y reforzar conocimiento.",
           posterAlt: "Póster del proyecto Quiz Generator",
           videoAlt: "Video demo de Quiz Generator",
+        },
+        speak2send: {
+          title: "Speak2Send",
+          description:
+            "Convierte tu voz en español en mensajes claros y profesionales en inglés. Una aplicación web que permite a hispanohablantes convertir su voz en mensajes profesionales en inglés. Speak2Send graba el audio, lo transcribe y lo reescribe para que puedas enviar un mensaje claro y bien estructurado en segundos.",
+          posterAlt: "Póster del proyecto Speak2Send",
+          videoAlt: "Video demo de Speak2Send",
         },
         powerpointGenerator: {
           title: "PowerPoint Generator",
