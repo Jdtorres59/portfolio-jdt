@@ -257,7 +257,7 @@ export const i18n: Record<
         speak2send: {
           title: "Speak2Send",
           description:
-            "Turn spoken Spanish into clear, professional English messages. A voice-to-text web app designed for Spanish speakers who need to communicate quickly and professionally in English. Speak2Send records your voice, transcribes it, and rewrites it into a polished message ready to send.",
+            "Turn spoken Spanish into clear, professional English messages. Speak2Send records your voice, transcribes it, and rewrites it into a polished message ready to send.",
           posterAlt: "Speak2Send project poster",
           videoAlt: "Speak2Send demo video",
         },
@@ -425,7 +425,7 @@ export const i18n: Record<
         speak2send: {
           title: "Speak2Send",
           description:
-            "Convierte tu voz en español en mensajes claros y profesionales en inglés. Una aplicación web que permite a hispanohablantes convertir su voz en mensajes profesionales en inglés. Speak2Send graba el audio, lo transcribe y lo reescribe para que puedas enviar un mensaje claro y bien estructurado en segundos.",
+            "Convierte tu voz en español en mensajes claros y profesionales en inglés. Speak2Send graba el audio, lo transcribe y lo reescribe para que puedas enviar un mensaje claro y bien estructurado en segundos.",
           posterAlt: "Póster del proyecto Speak2Send",
           videoAlt: "Video demo de Speak2Send",
         },
