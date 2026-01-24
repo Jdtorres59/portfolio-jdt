@@ -18,7 +18,7 @@ export const projects: Project[] = [
     ],
     media: {
       video: {
-        src: "/media/projects/videos/EZVideo.mp4.mov",
+        src: "/media/projects/videos/EZVideo.mp4",
         altKey: "projects.items.ez.videoAlt",
         aspect: "9/16",
       },
