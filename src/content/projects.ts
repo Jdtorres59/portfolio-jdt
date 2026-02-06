@@ -93,6 +93,29 @@ export const projects: Project[] = [
     },
   },
   {
+    id: "astronova",
+    titleKey: "projects.items.astronova.title",
+    descriptionKey: "projects.items.astronova.description",
+    category: "ai",
+    status: "in-development",
+    tech: [
+      "Satellite Imagery",
+      "Anomaly Detection",
+      "Machine Learning",
+      "Geospatial Analytics",
+      "Early Warning",
+    ],
+    media: {
+      poster: {
+        src: "/media/projects/posters/AstroNova.png",
+        altKey: "projects.items.astronova.posterAlt",
+      },
+    },
+    links: {
+      demo: "https://astronova-plum.vercel.app",
+    },
+  },
+  {
     id: "quiz-generator",
     titleKey: "projects.items.quizGenerator.title",
     descriptionKey: "projects.items.quizGenerator.description",

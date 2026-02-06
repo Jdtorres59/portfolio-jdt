@@ -247,6 +247,12 @@ export const i18n: Record<
           posterAlt: "CodeBugFixer project poster",
           videoAlt: "CodeBugFixer demo video",
         },
+        astronova: {
+          title: "AstroNova",
+          description:
+            "A satellite anomaly detection system built at the ActInSpace hackathon to deliver early alerts for illegal mining, deforestation, fires, and floods.",
+          posterAlt: "AstroNova project poster",
+        },
         quizGenerator: {
           title: "Quiz Generator",
           description:
@@ -414,6 +420,12 @@ export const i18n: Record<
             "Herramienta donde las personas pegan su código y un error para recibir una corrección con explicación clara, enfocada en aprender.",
           posterAlt: "Póster del proyecto CodeBugFixer",
           videoAlt: "Video demo de CodeBugFixer",
+        },
+        astronova: {
+          title: "AstroNova",
+          description:
+            "Sistema de detección de anomalías satelitales creado en el hackathon ActInSpace para generar alertas tempranas sobre minería ilegal, deforestación, incendios e inundaciones.",
+          posterAlt: "Póster del proyecto AstroNova",
         },
         quizGenerator: {
           title: "Quiz Generator",
