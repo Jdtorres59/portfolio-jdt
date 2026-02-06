@@ -82,6 +82,11 @@ export const i18n: Record<
           posterAlt: string;
           videoAlt: string;
         };
+        astronova: {
+          title: string;
+          description: string;
+          posterAlt: string;
+        };
         quizGenerator: {
           title: string;
           description: string;
