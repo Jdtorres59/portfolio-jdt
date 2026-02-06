@@ -96,7 +96,7 @@ export const projects: Project[] = [
     id: "astronova",
     titleKey: "projects.items.astronova.title",
     descriptionKey: "projects.items.astronova.description",
-    category: "ai",
+    category: "engineering",
     status: "in-development",
     tech: [
       "Satellite Imagery",
