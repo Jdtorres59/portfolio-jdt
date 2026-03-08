@@ -87,6 +87,27 @@ export function AboutSection() {
                   <p className="text-xs uppercase tracking-[0.2em] text-white/50">
                     {getCopy(dictionary, item.locationKey)}
                   </p>
+                  <div className="mt-4 border-t border-white/10 pt-4 space-y-3">
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.15em] text-white/40 mb-2">
+                        {dictionary.education.focusAreasLabel}
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        {["AI / ML", "Full-Stack", "Embedded Systems"].map((tag) => (
+                          <span
+                            key={tag}
+                            className="rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-medium text-accent/80"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <p className="text-xs text-white/50">
+                      <span className="text-accent/70">★</span>{" "}
+                      {dictionary.education.scholarship}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>

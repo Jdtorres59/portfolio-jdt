@@ -19,6 +19,7 @@ export const i18n: Record<
     };
     hero: {
       headline: string;
+      typewriterPhrases: string[];
       ctaPrimary: string;
       ctaSecondary: string;
       scrollCue: string;
@@ -31,6 +32,8 @@ export const i18n: Record<
     education: {
       title: string;
       subtitle: string;
+      focusAreasLabel: string;
+      scholarship: string;
       items: {
         uniandes: {
           degree: string;
@@ -172,7 +175,7 @@ export const i18n: Record<
       contact: "Contact",
     },
     profile: {
-      role: "Engineering student · aspiring AI/software engineer",
+      role: "CS & Electronics Engineering · Universidad de los Andes",
       tagline:
         "I’m interested in building technology with purpose to help create a better society.",
       summary:
@@ -182,6 +185,11 @@ export const i18n: Record<
     },
     hero: {
       headline: "Juan David Torres Casas",
+      typewriterPhrases: [
+        "I build technology that matters",
+        "I build for a better world",
+        "I use tech to solve real problems",
+      ],
       ctaPrimary: "View projects",
       ctaSecondary: "Contact",
       scrollCue: "Scroll to explore",
@@ -195,6 +203,8 @@ export const i18n: Record<
     education: {
       title: "Education",
       subtitle: "4th semester student.",
+      focusAreasLabel: "Focus Areas",
+      scholarship: "80% merit-based scholarship",
       items: {
         uniandes: {
           degree: "Systems Engineering & Electronics Engineering",
@@ -346,7 +356,7 @@ export const i18n: Record<
       contact: "Contacto",
     },
     profile: {
-      role: "Estudiante de ingeniería · aspirante a ingeniero de IA/software",
+      role: "Ing. de Sistemas & Electrónica · Universidad de los Andes",
       tagline:
         "Me interesa crear tecnología con propósito para ayudar a construir una mejor sociedad.",
       summary:
@@ -356,6 +366,11 @@ export const i18n: Record<
     },
     hero: {
       headline: "Juan David Torres Casas",
+      typewriterPhrases: [
+        "Construyo tecnología que importa",
+        "Construyo para un mundo mejor",
+        "Uso la tecnología para resolver problemas reales",
+      ],
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contacto",
       scrollCue: "Desliza para explorar",
@@ -369,6 +384,8 @@ export const i18n: Record<
     education: {
       title: "Educación",
       subtitle: "Estudiante de cuarto semestre.",
+      focusAreasLabel: "Áreas de enfoque",
+      scholarship: "Beca por mérito del 80%",
       items: {
         uniandes: {
           degree: "Ingeniería de Sistemas e Ingeniería Electrónica",
